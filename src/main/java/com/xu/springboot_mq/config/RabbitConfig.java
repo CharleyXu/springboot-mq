@@ -14,6 +14,6 @@ public class RabbitConfig {
 
 	@Bean
 	public Queue getQueue(){
-		return new Queue("Hello",true);//持久
+		return new Queue("object");// durable 队列声明为持久化（durable）
 	}
 }

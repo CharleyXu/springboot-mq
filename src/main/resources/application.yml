@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: springboot_mq
+  rabbitmq:
+    host: 60.205.229.166
+    port: 5672
+    username: admin
+    password: admin
+  data:
+       mongodb:
+         uri: mongodb://101.200.44.47:27017
+         database: springboot
