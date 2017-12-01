@@ -10,3 +10,9 @@ spring:
        mongodb:
          uri: mongodb://101.200.44.47:27017
          database: springboot
+#actuator 监控
+management:
+  port: 5888
+  context-path: /actuator
+
+
