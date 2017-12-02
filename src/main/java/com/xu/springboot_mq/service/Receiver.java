@@ -1,11 +1,9 @@
 package com.xu.springboot_mq.service;
 
-import com.xu.springboot_mq.Comment;
+import com.xu.springboot_mq.bean.Comment;
 import org.springframework.amqp.rabbit.annotation.RabbitHandler;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
-
-import java.util.concurrent.CountDownLatch;
 
 @Component
 @RabbitListener(queues = "object")

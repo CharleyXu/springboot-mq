@@ -1,7 +1,5 @@
-package com.xu.springboot_mq;
+package com.xu.springboot_mq.bean;
 
-
-import com.alibaba.fastjson.JSON;
 
 public class Comment {
   private int id;//评论Id

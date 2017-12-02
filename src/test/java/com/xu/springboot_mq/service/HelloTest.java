@@ -1,6 +1,6 @@
 package com.xu.springboot_mq.service;
 
-import com.xu.springboot_mq.Comment;
+import com.xu.springboot_mq.bean.Comment;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

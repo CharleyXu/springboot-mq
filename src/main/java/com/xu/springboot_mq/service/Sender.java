@@ -1,8 +1,7 @@
 package com.xu.springboot_mq.service;
 
-import com.xu.springboot_mq.Comment;
-import com.xu.springboot_mq.util.DateUtil;
-import java.util.Date;
+import com.xu.springboot_mq.bean.Comment;
+
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
