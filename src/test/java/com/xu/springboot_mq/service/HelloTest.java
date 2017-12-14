@@ -14,10 +14,10 @@ public class HelloTest {
   @Autowired
   private Sender sender;
 
-//  @Test
-//  public void sendTest() {
-//    sender.send();
-//  }
+  @Test
+  public void sendTest() {
+    sender.send();
+  }
 
   @Test
   public void sendObjectTest(){
